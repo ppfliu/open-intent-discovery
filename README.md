@@ -6,8 +6,8 @@ Intent understanding plays an important role in dialog systems, and is typically
 However, it is challenging and time-consuming to design the intents for a new domain from scratch, which usually requires a lot of manual effort of domain experts.
 This project presents an unsupervised two-stage approach to discover intents and generate meaningful intent labels automatically from a collection of unlabeled utterances in a domain,
 as illustrated in the following figure.
-![Unsupervised two-stage approach for intent discovery](architecture.jpg "Open Intent Discovery")
 
+![Unsupervised two-stage approach for intent discovery](architecture.jpg "Open Intent Discovery")
 
 In the first stage, we aim to generate a set of semantically coherent clusters where the utterances within each cluster convey the same intent.
 We obtain the utterance representation from various pre-trained sentence embeddings and apply clustering methods.
@@ -26,6 +26,8 @@ bash batch.sh
 
 ## Citation
 If you use the released source code in your work, please cite the following paper:
+
+<pre>
 @article{liu2021open,
   title={Open Intent Discovery through Unsupervised Semantic Clustering and Dependency Parsing},
   author={Liu, Pengfei and Ning, Youzhang and Wu, King Keung and Li, Kun and Meng, Helen},
