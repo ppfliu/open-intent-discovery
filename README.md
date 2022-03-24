@@ -16,7 +16,7 @@ We extract the ACTION-OBJECT pair from each utterance using a dependency parser 
 We empirically show that the proposed unsupervised approach can generate meaningful intent labels automatically and achieve high precision and recall in utterance clustering and intent discovery.
 
 ## Source Code
-This repository contains the core code for running the experiments. The SNIPS dataset is preprocessed from https://github.com/sonos/nlu-benchmark. Please cite their paper if you the dataset.
+This repository contains the core code for running the experiments. The SNIPS dataset is preprocessed from https://github.com/sonos/nlu-benchmark. Please cite their paper if you use the dataset.
 
 ### How to run the experiments?
 The batch script can be run as follows:
